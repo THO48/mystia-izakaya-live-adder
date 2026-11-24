@@ -1,0 +1,13 @@
+# .NET / C# build outputs
+bin/
+obj/
+*.user
+*.suo
+*.cache
+.vs/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+*.log
+NuGet.Config

@@ -1,0 +1,778 @@
+{
+ "version": 1,
+ "game": "Touhou Mystia Izakaya / 东方夜雀食堂",
+ "note": "id/name/desc 取自游戏 Addressables 包的 IngredientsLang（简体中文）",
+ "modules": [
+  "CORE",
+  "DLC1",
+  "DLC2",
+  "DLC3",
+  "DLC4",
+  "DLC5"
+ ],
+ "items": [
+  {
+   "id": 0,
+   "name": "鸡蛋",
+   "desc": "人里供应的鸡蛋，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 1,
+   "price": 4,
+   "tags": [
+    "生"
+   ],
+   "icon": "ing_0.png"
+  },
+  {
+   "id": 1,
+   "name": "猪肉",
+   "desc": "人里圈养的家猪肉，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 1,
+   "price": 10,
+   "tags": [
+    "肉"
+   ],
+   "icon": "ing_1.png"
+  },
+  {
+   "id": 2,
+   "name": "牛肉",
+   "desc": "人里圈养的肉牛肉，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 2,
+   "price": 15,
+   "tags": [
+    "肉"
+   ],
+   "icon": "ing_2.png"
+  },
+  {
+   "id": 3,
+   "name": "鹿肉",
+   "desc": "猎人们在山间猎回来的鹿肉，有点珍贵",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 2,
+   "price": 20,
+   "tags": [
+    "肉"
+   ],
+   "icon": "ing_3.png"
+  },
+  {
+   "id": 4,
+   "name": "野猪肉",
+   "desc": "猎人们在山间猎回来的野猪肉，充满野性",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 3,
+   "price": 25,
+   "tags": [
+    "肉"
+   ],
+   "icon": "ing_4.png"
+  },
+  {
+   "id": 5,
+   "name": "豆腐",
+   "desc": "人里有卖的豆腐，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 1,
+   "price": 8,
+   "tags": [
+    "素",
+    "家常",
+    "清淡"
+   ],
+   "icon": "ing_5.png"
+  },
+  {
+   "id": 6,
+   "name": "土豆",
+   "desc": "随处可见的那种普通土豆",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 2,
+   "price": 10,
+   "tags": [
+    "素",
+    "家常"
+   ],
+   "icon": "ing_6.png"
+  },
+  {
+   "id": 7,
+   "name": "洋葱",
+   "desc": "人里农田产的洋葱，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 2,
+   "price": 12,
+   "tags": [
+    "素",
+    "鲜"
+   ],
+   "icon": "ing_7.png"
+  },
+  {
+   "id": 8,
+   "name": "南瓜",
+   "desc": "人里农田产的南瓜，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 2,
+   "price": 14,
+   "tags": [
+    "饱腹",
+    "素"
+   ],
+   "icon": "ing_8.png"
+  },
+  {
+   "id": 9,
+   "name": "萝卜",
+   "desc": "人里农田产的萝卜，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 2,
+   "price": 16,
+   "tags": [
+    "素",
+    "下酒"
+   ],
+   "icon": "ing_9.png"
+  },
+  {
+   "id": 10,
+   "name": "海苔",
+   "desc": "不知道从哪里流入的外来食材，还挺常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 1,
+   "price": 3,
+   "tags": [
+    "鲜",
+    "素"
+   ],
+   "icon": "ing_10.png"
+  },
+  {
+   "id": 11,
+   "name": "鳟鱼",
+   "desc": "栖息于淡水中的冷水鱼，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 1,
+   "price": 8,
+   "tags": [
+    "鲜",
+    "水产"
+   ],
+   "icon": "ing_11.png"
+  },
+  {
+   "id": 12,
+   "name": "八目鳗",
+   "desc": "一种洄游性海鱼但却在幻想乡的河流湖泊随处可见，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 2,
+   "price": 14,
+   "tags": [
+    "水产",
+    "招牌",
+    "鲜"
+   ],
+   "icon": "ing_12.png"
+  },
+  {
+   "id": 13,
+   "name": "三文鱼",
+   "desc": "一种高度洄游海鱼但在幻想乡的河流湖泊可见，有点珍贵",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 3,
+   "price": 24,
+   "tags": [
+    "水产",
+    "高级",
+    "鲜"
+   ],
+   "icon": "ing_13.png"
+  },
+  {
+   "id": 14,
+   "name": "金枪鱼",
+   "desc": "一种大洋性洄游海鱼但在幻想乡的河流湖泊可见，有点珍贵",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 3,
+   "price": 30,
+   "tags": [
+    "水产",
+    "鲜",
+    "高级"
+   ],
+   "icon": "ing_14.png"
+  },
+  {
+   "id": 15,
+   "name": "黑毛猪肉",
+   "desc": "在高海拔深山中圈养的黑毛猪肉，非常高级",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 4,
+   "price": 35,
+   "tags": [
+    "肉",
+    "传说",
+    "山珍"
+   ],
+   "icon": "ing_15.png"
+  },
+  {
+   "id": 16,
+   "name": "和牛",
+   "desc": "传闻是超优质的肉牛品种，又称雪花肉，非常高级",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 5,
+   "price": 40,
+   "tags": [
+    "肉",
+    "传说",
+    "高级"
+   ],
+   "icon": "ing_16.png"
+  },
+  {
+   "id": 17,
+   "name": "蘑菇",
+   "desc": "从魔法之森采回来的品相良好的蘑菇，无法人工种植，非常珍贵",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 3,
+   "price": 18,
+   "tags": [
+    "素",
+    "鲜",
+    "菌类"
+   ],
+   "icon": "ing_17.png"
+  },
+  {
+   "id": 18,
+   "name": "松露",
+   "desc": "从魔法之森采回来的品相良好的松露，无法人工种植，非常珍贵",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 5,
+   "price": 50,
+   "tags": [
+    "素",
+    "传说",
+    "山珍",
+    "鲜",
+    "菌类",
+    "高级"
+   ],
+   "icon": "ing_18.png"
+  },
+  {
+   "id": 19,
+   "name": "极上金枪鱼",
+   "desc": "金枪鱼中的顶级品种，非常珍贵",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 5,
+   "price": 34,
+   "tags": [
+    "水产",
+    "海味",
+    "传说",
+    "鲜",
+    "高级"
+   ],
+   "icon": "ing_19.png"
+  },
+  {
+   "id": 20,
+   "name": "河豚",
+   "desc": "高级水产品，但体内含毒素，需小心处理。",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 5,
+   "price": 42,
+   "tags": [
+    "水产",
+    "海味",
+    "鲜"
+   ],
+   "icon": "ing_20.png"
+  },
+  {
+   "id": 21,
+   "name": "桃子",
+   "desc": "桃子树的果实，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 3,
+   "price": 10,
+   "tags": [
+    "果味",
+    "甜"
+   ],
+   "icon": "ing_21.png"
+  },
+  {
+   "id": 22,
+   "name": "白果",
+   "desc": "白果树的果实，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 2,
+   "price": 7,
+   "tags": [
+    "适合拍照"
+   ],
+   "icon": "ing_22.png"
+  },
+  {
+   "id": 23,
+   "name": "虾",
+   "desc": "分布在雾之湖和玄武泽的淡水虾，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 2,
+   "price": 30,
+   "tags": [
+    "水产",
+    "鲜"
+   ],
+   "icon": "ing_23.png"
+  },
+  {
+   "id": 24,
+   "name": "蜂蜜",
+   "desc": "能从树上蜂巢采到的野生蜂蜜，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 2,
+   "price": 15,
+   "tags": [
+    "甜"
+   ],
+   "icon": "ing_24.png"
+  },
+  {
+   "id": 25,
+   "name": "蝉蜕",
+   "desc": "在树干上常常可以采集的昆虫外壳，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 1,
+   "price": 5,
+   "tags": [
+    "猎奇"
+   ],
+   "icon": "ing_25.png"
+  },
+  {
+   "id": 26,
+   "name": "幻昙华",
+   "desc": "生长在沼泽中的奇迹之花，非常珍贵",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 5,
+   "price": 70,
+   "tags": [
+    "传说",
+    "梦幻",
+    "不可思议",
+    "高级"
+   ],
+   "icon": "ing_26.png"
+  },
+  {
+   "id": 27,
+   "name": "露水",
+   "desc": "清晨采回来的露水，有点珍贵",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 1,
+   "price": 10,
+   "tags": [
+    "清淡"
+   ],
+   "icon": "ing_27.png"
+  },
+  {
+   "id": 28,
+   "name": "竹笋",
+   "desc": "从野外采回来的竹笋，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 3,
+   "price": 40,
+   "tags": [
+    "素",
+    "清淡"
+   ],
+   "icon": "ing_28.png"
+  },
+  {
+   "id": 29,
+   "name": "黄油",
+   "desc": "西餐常用的食材，可以轻松地给食物增加难以抗拒的香味",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 2,
+   "price": 8,
+   "tags": [
+    "重油"
+   ],
+   "icon": "ing_29.png"
+  },
+  {
+   "id": 30,
+   "name": "面粉",
+   "desc": "有多种用途，较为常见",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 2,
+   "price": 10,
+   "tags": [
+    "饱腹"
+   ],
+   "icon": "ing_30.png"
+  },
+  {
+   "id": 31,
+   "name": "竹子",
+   "desc": "鲜翠欲滴的迷途竹林鲜切竹子，散发着清冽的竹香",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 3,
+   "price": 15,
+   "tags": [
+    "适合拍照"
+   ],
+   "icon": "ing_31.png"
+  },
+  {
+   "id": 32,
+   "name": "糯米",
+   "desc": "很有粘性的米，制作出来的料理或绵软适口，或鲜嫩弹牙",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 3,
+   "price": 15,
+   "tags": [],
+   "icon": "ing_32.png"
+  },
+  {
+   "id": 33,
+   "name": "月光草",
+   "desc": "永远亭的特产，由满月之夜的月光凝聚，非常珍贵",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 5,
+   "price": 70,
+   "tags": [
+    "不可思议",
+    "清淡",
+    "梦幻",
+    "文化底蕴"
+   ],
+   "icon": "ing_33.png"
+  },
+  {
+   "id": 34,
+   "name": "冰块",
+   "desc": "水的固体形态，帮助食材保温，晶莹剔透",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 1,
+   "price": 2,
+   "tags": [
+    "凉爽"
+   ],
+   "icon": "ing_34.png"
+  },
+  {
+   "id": 35,
+   "name": "辣椒",
+   "desc": "用于增加辣味的食材，评价非常两极",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 1,
+   "price": 2,
+   "tags": [
+    "辣"
+   ],
+   "icon": "ing_35.png"
+  },
+  {
+   "id": 36,
+   "name": "葡萄",
+   "desc": "在红魔馆种植的用于酿酒的葡萄",
+   "module": "CORE",
+   "src_table": "CORE",
+   "level": 1,
+   "price": 5,
+   "tags": [
+    "果味",
+    "甜"
+   ],
+   "icon": "ing_36.png"
+  },
+  {
+   "id": 1000,
+   "name": "黄瓜",
+   "desc": "河童的嗜好物。虽然用来做菜和普通蔬菜没有区别，但却能让河童无比上瘾。究竟是其中的什么成分在起作用……",
+   "module": "DLC1",
+   "src_table": "DLC1",
+   "level": 1,
+   "price": 7,
+   "tags": [
+    "家常",
+    "素",
+    "清淡"
+   ],
+   "icon": "ing_1000.png"
+  },
+  {
+   "id": 1001,
+   "name": "章鱼",
+   "desc": "鲜嫩可爱的海洋生物，但幻想乡没有海……它的脚是宝贝，有压倒性的肉质感，而且只要用最简单的火烤，就能享受弹牙的美味！",
+   "module": "DLC1",
+   "src_table": "DLC1",
+   "level": 2,
+   "price": 12,
+   "tags": [
+    "水产",
+    "鲜",
+    "海味"
+   ],
+   "icon": "ing_1001.png"
+  },
+  {
+   "id": 1002,
+   "name": "海胆",
+   "desc": "据说在外界被称作传说级的食材，只要一小颗就能让人感受到整个海洋的美味，会是真的吗？样子长得倒是挺奇怪的……",
+   "module": "DLC1",
+   "src_table": "DLC1",
+   "level": 3,
+   "price": 18,
+   "tags": [
+    "水产",
+    "高级",
+    "传说",
+    "鲜",
+    "海味"
+   ],
+   "icon": "ing_1002.png"
+  },
+  {
+   "id": 1003,
+   "name": "黑盐",
+   "desc": "火山能量，累积上千万年；只为净化，你灵魂的尘埃……广告词这样写着，其实就是普通的火山岩盐。",
+   "module": "DLC1",
+   "src_table": "DLC1",
+   "level": 1,
+   "price": 3,
+   "tags": [
+    "咸"
+   ],
+   "icon": "ing_1003.png"
+  },
+  {
+   "id": 1004,
+   "name": "奶油",
+   "desc": "用非常特殊的方法处理的奶制品，无论什么时候都能秒杀甜食嗜好者的味蕾！",
+   "module": "DLC1",
+   "src_table": "DLC1",
+   "level": 1,
+   "price": 9,
+   "tags": [
+    "家常",
+    "甜",
+    "西式"
+   ],
+   "icon": "ing_1004.png"
+  },
+  {
+   "id": 1005,
+   "name": "螃蟹",
+   "desc": "以为有了盔甲就可以横行霸道的八脚笨蛋，只需最简单的清蒸就能成为究极美味！不过要小心它的钳子……",
+   "module": "DLC1",
+   "src_table": "DLC1",
+   "level": 3,
+   "price": 10,
+   "tags": [
+    "水产",
+    "高级",
+    "鲜"
+   ],
+   "icon": "ing_1005.png"
+  },
+  {
+   "id": 2000,
+   "name": "并蒂莲",
+   "desc": "根茎生长在桥的附近，花朵成熟后会破水而出，淡红色并有淡香味，高级食材，也是地底人的节日装饰。",
+   "module": "DLC2",
+   "src_table": "CORE",
+   "level": 3,
+   "price": 36,
+   "tags": [
+    "文化底蕴",
+    "高级",
+    "传说",
+    "清淡",
+    "梦幻"
+   ],
+   "icon": "ing_2000.png"
+  },
+  {
+   "id": 2001,
+   "name": "柠檬",
+   "desc": "仅在桥附近特别的树上产出的奇怪果实，据说没有人能够无表情板着脸吃完一整颗，有着强大的“酸”味，只能取其果汁来调味。",
+   "module": "DLC2",
+   "src_table": "DLC2",
+   "level": 1,
+   "price": 8,
+   "tags": [
+    "果味"
+   ],
+   "icon": "ing_2001.png"
+  },
+  {
+   "id": 2002,
+   "name": "芝士",
+   "desc": "浓郁的奶油熟成后的珍贵食材，取一片加热融化就能让料理变得奶香浓郁，美味十足。",
+   "module": "DLC2",
+   "src_table": "DLC2",
+   "level": 2,
+   "price": 18,
+   "tags": [
+    "高级",
+    "咸",
+    "鲜"
+   ],
+   "icon": "ing_2002.png"
+  },
+  {
+   "id": 3000,
+   "name": "莲子",
+   "desc": "非常古老的水生植物——莲的种子。莲子的芯很苦，千万得处理好，别混到料理给客人吃了。",
+   "module": "DLC3",
+   "src_table": "DLC3",
+   "level": 3,
+   "price": 22,
+   "tags": [
+    "招牌",
+    "清淡",
+    "文化底蕴"
+   ],
+   "icon": "ing_3000.png"
+  },
+  {
+   "id": 3001,
+   "name": "地瓜",
+   "desc": "世上最实在的食材！不仅香甜软糯，而且能强效地应对饥饿，在冬天还有暖手的效果。",
+   "module": "DLC3",
+   "src_table": "DLC3",
+   "level": 1,
+   "price": 8,
+   "tags": [
+    "饱腹"
+   ],
+   "icon": "ing_3001.png"
+  },
+  {
+   "id": 3002,
+   "name": "松子",
+   "desc": "红松树的种子，据说在外界已经被列为濒危物种，但在幻想乡仍然很常见。传说松子有延年益寿的功能，是古代道士辟谷时的常备之物。",
+   "module": "DLC3",
+   "src_table": "DLC3",
+   "level": 2,
+   "price": 15,
+   "tags": [
+    "招牌",
+    "清淡",
+    "高级"
+   ],
+   "icon": "ing_3002.png"
+  },
+  {
+   "id": 3003,
+   "name": "板栗",
+   "desc": "相传道教创始人修炼时，由于不爱荤腥，便栽了许多板栗树，以栗代饭。栗子种仁肥厚，营养丰富，不仅受到许多道教人士的推崇，也经常被农民用来代替粮食。",
+   "module": "DLC3",
+   "src_table": "DLC3",
+   "level": 2,
+   "price": 10,
+   "tags": [
+    "家常",
+    "素"
+   ],
+   "icon": "ing_3003.png"
+  },
+  {
+   "id": 4000,
+   "name": "梅子",
+   "desc": "果梅树结的果实，可以盐渍或干制。做成梅干后有种咸中带酸的特殊口感，能够大大激起食欲，且品尝后唇齿留甘，让人回味无穷。",
+   "module": "DLC4",
+   "src_table": "DLC4",
+   "icon": "ing_4000.png"
+  },
+  {
+   "id": 4001,
+   "name": "红豆",
+   "desc": "又称赤豆，是适应能力较强的草本植物，食用能够起到增强自身免疫力和抗病能力的效果。古代人觉得中风得病都是疫鬼作祟，所以有“赤豆打鬼”的传说。",
+   "module": "DLC4",
+   "src_table": "DLC4",
+   "level": 2,
+   "price": 18,
+   "tags": [
+    "家常"
+   ],
+   "icon": "ing_4001.png"
+  },
+  {
+   "id": 4002,
+   "name": "鲜花",
+   "desc": "一朵朵绚丽烂漫的鲜花扎成的花束。花儿们以生命为代价也要完成的事，必须要对此付出敬意！",
+   "module": "DLC4",
+   "src_table": "DLC4",
+   "level": 3,
+   "price": 45,
+   "tags": [
+    "梦幻",
+    "适合拍照"
+   ],
+   "icon": "ing_4002.png"
+  },
+  {
+   "id": 4003,
+   "name": "香椿",
+   "desc": "一种常见的野菜。具有一定的毒性，不建议过量食用，并且食用前须焯水烹饪。",
+   "module": "DLC4",
+   "src_table": "DLC4",
+   "icon": "ing_4003.png"
+  },
+  {
+   "id": 4004,
+   "name": "西红柿",
+   "desc": "颜色鲜艳的浆果，曾经还因为太鲜艳被视为“狐狸的果实”，觉得它具有剧毒，所以只用来观赏。在发现可以食用以后就开始大面积种植了。",
+   "module": "DLC4",
+   "src_table": "DLC4",
+   "icon": "ing_4004.png"
+  }
+ ]
+}
